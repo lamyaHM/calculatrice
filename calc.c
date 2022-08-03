@@ -6,24 +6,24 @@ int main() {
     float c;
     char opp ; 
     printf("entrer une valeur ");
-    scanf("%f", &a);
+    scanf("%lf", &a);
     printf ("entrer une valeur ");
-    scanf ("%f",&b);
+    scanf ("%lf",&b);
     printf("entrer l'operastion souhaiter");
     scanf("%s",&opp);
    switch (opp)
    {
       case '+':
-      printf("%.2f",c = a + b);
+      printf("%.2lf",c = a + b);
       break;
       case '-'  :
-      printf("%.2f", c = a - b);
+      printf("%.2lf", c = a - b);
       break;
       case '*' :
-      printf("%.2f", c = a * b);
+      printf("%.2lf", c = a * b);
       break;
       case   '/' :
-      printf("%.2f", c = a / b);
+      printf("%.2lf", c = a / b);
       break;
       case   'q' :
       exit(0);
